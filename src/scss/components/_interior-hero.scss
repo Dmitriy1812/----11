@@ -1,0 +1,54 @@
+.interior-hero {
+  background-image: url("../img/interior-hero-bg.png");
+  // position: relative;
+  // margin-top: -92px;
+  padding-top: 153px;
+  padding-bottom: 83px;
+  background-position: right top;
+  // background-size: 975px 600px;
+  background-repeat: no-repeat;
+  background-color: #f4f5f7;
+
+  &__container {
+    // display: flex;
+  }
+
+  &__bg {
+  //   position: absolute;
+  //   z-index: -1;
+  // }
+}
+
+  &__breadcrumbs {
+    margin-bottom: 40px;
+  }
+
+}
+
+.breadcrumb {
+  margin-bottom: 42px;
+
+  &-link{
+    color: var(--color-gray);
+    font-size: 14px;
+  }
+
+  &-svg{
+    width: 6px;
+    height: 11px;
+    color: #9A9CA5;
+  }
+
+  &-services{
+    color: #9A9CA5;
+    font-size: 14px;
+  }
+
+
+}
+
+
+
+.main-descr-interior-hero{
+  max-width: 50%;
+}

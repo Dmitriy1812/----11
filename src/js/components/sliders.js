@@ -1,5 +1,7 @@
 const portSlider = document.querySelector('.portfolio-section__items');
 
+if (portSlider) {
+
 const portfolioSlider = new Swiper(portSlider, {
   slidesPerView: 3,
   spaceBetween: gap,
@@ -53,6 +55,12 @@ document.querySelector('.portfolio-section__next').addEventListener('click', () 
   nextNextActiveSlide.classList.add('slider-visible');
 });
 
+}
+
+const testimonials = document.querySelector('.testimonials__items');
+
+if (testimonials) {
+
 const testimonialsSlider = new Swiper('.testimonials__items', {
   slidesPerView: 1,
   spaceBetween: gap,
@@ -62,3 +70,4 @@ const testimonialsSlider = new Swiper('.testimonials__items', {
     prevEl: '.testimonials__prev',
   },
 });
+}
